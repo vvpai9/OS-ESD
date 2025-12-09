@@ -1,0 +1,43 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000                 area             aa, code
+    4 00000000                 export           f
+    5 00000000         f
+    6 00000000 E0802001        add              r2,r0,r1
+    7 00000004 E1A05002        mov              r5,r2
+    8 00000008 E12FFF1E        bx               lr
+    9 0000000C                 end
+Command Line: --debug --xref --apcs=interwork --depend=.\str.d -o.\str.o -IC:\K
+eil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --predef
+ine="__EVAL SETA 1" --list=.\str.lst "..\..\os 2017\worked examples\c and assem
+bly with string passing\str.s"
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+aa 00000000
+
+Symbol: aa
+   Definitions
+      At line 3 in file ..\..\os
+   Uses
+      None
+Comment: aa unused
+f 00000000
+
+Symbol: f
+   Definitions
+      At line 5 in file ..\..\os
+   Uses
+      At line 4 in file ..\..\os
+Comment: f used once
+2 symbols
+333 symbols in table

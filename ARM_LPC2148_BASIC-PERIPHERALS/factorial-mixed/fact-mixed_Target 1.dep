@@ -1,0 +1,5 @@
+Dependencies for Project 'fact-mixed', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4C80D29C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\f1.c)(0x611C8A03)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\f1.o --omf_browse .\f1.crf --depend .\f1.d)
+I (C:\Keil\ARM\INC\Philips\lpc21xx.h)(0x532C1500)
+F (.\f2.s)(0x611C89C8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\f2.lst --xref -o .\f2.o --depend .\f2.d)

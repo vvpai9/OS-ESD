@@ -1,0 +1,60 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000                 area             aa,code
+    4 00000000         
+    5 00000000                 export           fact
+    6 00000000         
+    7 00000000         fact
+    8 00000000 E3A01001        mov              r1,#01
+    9 00000004 E0020091 
+                       loop    mul              r2,r1,r0
+   10 00000008         
+   11 00000008 E1A01002        mov              r1,r2
+   12 0000000C E2400001        sub              r0,r0,#1
+   13 00000010 E3500001        cmp              r0,#1
+   14 00000014 1AFFFFFA        bne              loop
+   15 00000018 E1A00002        mov              r0,r2       ; to update c varia
+                                                            ble(return)
+   16 0000001C E1A0F00E        mov              pc,lr
+   17 00000020                 end
+Command Line: --debug --xref --apcs=interwork --depend=.\f2.d -o.\f2.o -IC:\Kei
+l\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --predefin
+e="__EVAL SETA 1" --list=.\f2.lst f2.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+aa 00000000
+
+Symbol: aa
+   Definitions
+      At line 3 in file f2.s
+   Uses
+      None
+Comment: aa unused
+fact 00000000
+
+Symbol: fact
+   Definitions
+      At line 7 in file f2.s
+   Uses
+      At line 5 in file f2.s
+Comment: fact used once
+loop 00000004
+
+Symbol: loop
+   Definitions
+      At line 9 in file f2.s
+   Uses
+      At line 14 in file f2.s
+Comment: loop used once
+3 symbols
+334 symbols in table

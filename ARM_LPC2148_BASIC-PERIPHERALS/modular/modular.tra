@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'modular.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"add.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "add.o" "main.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\modular.map" -o "modular.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'modular.axf'
+### ADS-LD Command File: 'modular.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'modular.lnp', Handle=0x00000C6C
+### Writing '.lnp' file
+### ADS-LD Command file 'modular.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
