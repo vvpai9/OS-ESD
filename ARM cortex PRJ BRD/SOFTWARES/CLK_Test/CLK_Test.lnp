@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "system_lpc17xx.o" "clk_test.o" "startup_lpc17xx.o" --strict --scatter "CLK_Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CLK_Test.map" -o "CLK_Test.axf"

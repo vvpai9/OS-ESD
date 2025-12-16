@@ -1,0 +1,4 @@
+Dependencies for Project 'square', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5680FE74)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\square.c)(0x54BCEFCE)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "square.o" --omf_browse "square.crf" --depend "square.d")
+I (C:\Keil4\ARM\INC\Philips\lpc21xx.h)(0x4C80E12A)

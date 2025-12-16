@@ -1,0 +1,14 @@
+#include <Philips\LPC2148.h>
+#include "lcd.h"
+
+void main ()
+{
+	IO0DIR |= 0x003C3C00;
+	IO0SET |= 0x003C3C00;
+	LcdInit();								// Initialize LCD
+	
+	DisplayRow (1,"  ALS BANGALORE  ");		
+	DisplayRow (2,"    WELCOME    ");
+	while(1)
+	{}
+}

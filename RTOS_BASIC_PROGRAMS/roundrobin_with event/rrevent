@@ -1,0 +1,53 @@
+//Switching by priority
+//The following example demonstrates one of the task switching mechanisms. Task job1 has a higher priority than task job2. When job1 starts, it creates task job2 and then enters the os_evt_wait_or function. The RTX kernel suspends job1 at this point, and job2 starts executing. As soon as job2 sets an event flag for job1, the RTX kernel suspends job2 and then resumes job1. Task job1 then increments counter cnt1 and calls the os_evt_wait_or function, which suspends it again. The kernel resumes job2, which increments counter cnt2 and sets an event flag for job1. This process of task switching continues indefinitely.
+
+
+#include <rtl.h>
+#include <lpc21xx.h>
+#include <stdio.h>
+OS_TID tsk1,tsk2;    
+OS_RESULT result;
+
+	//declare task identification number variables
+int    cnt1,cnt2,test2;	// counter
+__task void job1 (void); 		//declare function for job1
+__task void job2 (void); 		//declare function for job2
+__task void job1 (void)		// job1 function definition
+ {	tsk1=os_tsk_self();
+  os_tsk_prio_self (2);		// assign priority to job1 as 2
+   while (1)
+   {
+   os_tsk_create (job2, 1);		//create job2
+	result=   os_evt_wait_or (0x0001, 0x0000);		// wait for event 
+	if (result ==OS_R_EVT)
+	 {
+	   cnt1++;			// if event increment counter1
+	   }
+//	os_dly_wait(1);					
+    }
+}
+
+__task void job2 (void)		// job2 function definition
+ {
+  while (1)
+   {
+          cnt2++;			//increment counter 2
+  if(cnt2==0x000f)		// if count is reached to 000f then 
+{ 
+cnt2=0;   			//clear counter	and set event flag to start job1
+os_evt_set (0x0001, tsk1);	
+  }
+//	test2=22;		// when job1 is done resume with job2
+   //	 os_dly_wait(3);
+//		test2=0;
+//	os_dly_wait(3);
+  }
+}
+int main (void) 
+{
+cnt1=0;
+cnt2=0;
+
+  os_sys_init (job1);		//initialize job1 
+  while (1);
+}

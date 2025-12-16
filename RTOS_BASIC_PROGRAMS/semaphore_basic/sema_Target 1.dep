@@ -1,0 +1,10 @@
+Dependencies for Project 'sema', Target 'Target 1': (DO NOT MODIFY !)
+F (.\RTX_Config.c)(0x57F48912)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtx_config.o --omf_browse .\rtx_config.crf --depend .\rtx_config.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x532C1630)
+F (.\Startup.s)(0x54EEABC8)(--cpu ARM7TDMI --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\sema.c)(0x5FBE0153)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\sema.o --omf_browse .\sema.crf --depend .\sema.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)

@@ -1,0 +1,9 @@
+ADC0809 is implemented using Mailbox concept in this RTX example init_task will create 
+send_task<2>, rec_task<1> and delete itself from kernel.
+
+Mailbox is created with name T_MEAS both send_task and rec_task will share this mailbox 
+to transfer data.
+
+ADC converted values are manipulated in send_task and displayed in rec_task. LCD is used 
+for display purpose. 
+

@@ -1,0 +1,9 @@
+rtx-uart0.o: RTX-UART0.c
+rtx-uart0.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-uart0.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-uart0.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-uart0.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-uart0.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-uart0.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-uart0.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-uart0.o: C:\Keil4\ARM\RV31\INC\stdio.h

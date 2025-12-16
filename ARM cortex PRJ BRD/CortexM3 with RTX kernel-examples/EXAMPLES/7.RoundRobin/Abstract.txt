@@ -1,0 +1,17 @@
+In this RTX example init_task will create task1, task2, task3, task4 and delete 
+itself from the kernel. Round-robin task switching is done with 4 tasks by making
+#define OS_ROBIN 1 in RTX_Config.c file. Two tasks (task1 and task2) are executing
+at priority 2 while task3 is executing at priority 4. The task execution of task1 
+and task2 is interrupted by round robin task switches. 
+
+You may verify this using a hyperterminal window that displays the increments of
+counter1, counter2, and counter3.
+
+Switching to task 3 takes plcae when counter2 reaches a value of 0x00ff(255)
+because it is pending on an event which is enables in Task 2.
+
+The low priority task 4 with a priority of 1 will never execute and will always 
+stay ready. This is because one of the higher priority tasks is always running. 
+
+
+

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "i2c_rtc.o" --library_type=microlib --strict --scatter "I2C_RTC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\I2C_RTC.map" -o "I2C_RTC.axf"

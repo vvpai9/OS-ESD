@@ -1,0 +1,14 @@
+This is a simple RTX Kernel based example that uses a semaphore to share
+the serial line. Two tasks are defined:
+
+task1: A task with high priority, initially acquires semaphore and sends
+a short string "RELAY" via UART0 and toggles RLY2, L12 and return a token
+back to a semaphore. 
+
+task2: A task with low priority, running whenever no other task with higher
+priority is active. It sends a short string "LED's" via UART0 and LED's L1-L8
+will be ON and OFF when the semaphore is free. If the semaphore is in use it will wait. 
+
+
+
+

@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\MAHADEVA_R\PROJECTS\ALS-SDA-ARM7-08\SOFTWARE\Exp01_ADC_0809\ADC_0809_CH3\ADC_0809.uvproj
+Project File Date:  10/13/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling adc_0809.c...
+adc_0809.c(134): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+compiling lcd.c...
+linking...
+Program Size: Code=6068 RO-data=32 RW-data=108 ZI-data=1164  
+FromELF: creating hex file...
+"ADC_0809.axf" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,4 @@
+Dependencies for Project 'pwm', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x56D8232E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\pwm.c)(0x56DA8359)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "pwm.o" --omf_browse "pwm.crf" --depend "pwm.d")
+I (C:\Keil4\ARM\INC\Philips\LPC214x.h)(0x5687AAB8)

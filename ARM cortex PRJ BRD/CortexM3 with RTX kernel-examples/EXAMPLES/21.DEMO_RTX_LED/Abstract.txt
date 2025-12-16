@@ -1,0 +1,17 @@
+This is a simple RTX Kernel based example that uses a binary semaphore
+to share the serial line and LED toggle. Two tasks are defined:
+
+task1(8): A task with high priority, that that aquires senaphore and 
+		  sends "TASK1 : LED's L1 to L4\r" to hyper terminal and toggles 
+		  LED's L1 to L4 and releases semaphore. 
+		  If the semaphore is not free it will be in WAIT_SEM state.
+
+task2(1): A task with low priority, running whenever no other task with
+          higher priority is active. It sends "TASK2 : LED's L5 to L8\r"
+		  to hyper terminal and toggles LED's L5 to L8 and releases semaphore. 
+		  If the semaphore is not free it will be in WAIT_SEM state.
+
+
+
+
+

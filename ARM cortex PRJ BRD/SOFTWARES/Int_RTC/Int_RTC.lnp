@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "int_rtc.o" "uart0.o" "startup_lpc17xx.o" "system_lpc17xx.o" --strict --scatter "Int_RTC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Int_RTC.map" -o "Int_RTC.axf"

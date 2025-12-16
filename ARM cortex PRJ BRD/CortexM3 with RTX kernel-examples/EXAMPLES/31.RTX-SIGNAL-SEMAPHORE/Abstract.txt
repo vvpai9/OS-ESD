@@ -1,0 +1,10 @@
+Signaling: Synchronizing the execution of two tasks is the simplest
+use of a semaphore:
+	This is a simple RTX Kernel based example that uses a semaphore.
+In this case semaphore is used to ensure that the code in FuncA()
+is executed before the code in FuncB().
+
+
+
+
+

@@ -1,0 +1,1 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\NXP\LPC17xx" --list ".\LPC1700_Startup.lst" --xref -o ".\LPC1700_Startup.o" --depend ".\LPC1700_Startup.d" "C:\Users\User\AppData\Local\Rowley Associates Limited\CrossWorks for ARM\packages\targets\LPC1000\LPC1700_Startup.s"

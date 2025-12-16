@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led_test.o" --library_type=microlib --strict --scatter "LED_Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_Test.map" -o "LED_Test.axf"

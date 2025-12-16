@@ -1,0 +1,5 @@
+Dependencies for Project 'EEPROM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5677D8B0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\EEPROM.C)(0x568FADA5)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "eeprom.o" --omf_browse "eeprom.crf" --depend "eeprom.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x5687AAB8)
+I (C:\Keil4\ARM\RV31\INC\stdio.h)(0x4D462E2E)

@@ -1,0 +1,16 @@
+RTX cHATTING:
+
+In this RTX example init_task will create task1, task2 and delete itself from 
+the kernel. we have two task send_task and rec_task:
+
+send_task: In this task we will send message to rec_task using mailbox. Message pattern  
+is <Message1><*>. 
+
+rec_task: In this task we will read the message sent by send task using mailbox and 
+reply to that message with same pattern <Message2><*>.
+
+Result: To observe the output switch Off both switches of SW11 and Press RESET(SW9). 
+Observe output on hyper terminal.
+
+Note: Message format should be <message> followed by <*>.
+

@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\semaphore.o"
+".\system_lpc17xx.o"
+".\rtx_conf_cm.o"
+".\startup_lpc17xx.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--library_type=microlib --strict --scatter ".\Semaphore.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Semaphore.map" -o .\Semaphore.axf

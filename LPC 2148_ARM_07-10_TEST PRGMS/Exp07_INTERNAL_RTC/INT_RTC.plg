@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\MAHADEVA_R\PROJECTS\ALS-SDA-ARM7-08\SOFTWARE\Exp16_INTERNAL_RTC\INT_RTC.uvproj
+Project File Date:  07/03/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling INT_RTC.C...
+INT_RTC.C(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+linking...
+Program Size: Code=2624 RO-data=128 RW-data=88 ZI-data=1392  
+FromELF: creating hex file...
+"INT_RTC.axf" - 0 Error(s), 1 Warning(s).

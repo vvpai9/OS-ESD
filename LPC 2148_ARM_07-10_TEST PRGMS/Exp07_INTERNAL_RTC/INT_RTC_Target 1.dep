@@ -1,0 +1,5 @@
+Dependencies for Project 'INT_RTC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51D4064E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\INT_RTC.C)(0x56C464E1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "int_rtc.o" --omf_browse "int_rtc.crf" --depend "int_rtc.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x5687AAB8)
+I (C:\Keil4\ARM\RV31\INC\stdio.h)(0x4D462E2E)

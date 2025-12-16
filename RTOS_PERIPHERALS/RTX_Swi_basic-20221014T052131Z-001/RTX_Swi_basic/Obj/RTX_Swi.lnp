@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\obj\rtx_swi.o"
+".\obj\rtx_config.o"
+".\obj\startup.o"
+".\obj\swi_table.o"
+C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB
+--library_type=microlib --strict --scatter ".\Obj\RTX_Swi.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\RTX_Swi.map" -o .\Obj\RTX_Swi.axf

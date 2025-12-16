@@ -1,0 +1,7 @@
+Dependencies for Project 'I2C_RTC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x561DD8E9)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\I2C_RTC.c)(0x56D580E1)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "i2c_rtc.o" --omf_browse "i2c_rtc.crf" --depend "i2c_rtc.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x5687AAB8)
+I (C:\Keil4\ARM\RV31\INC\stdio.h)(0x4D462E2E)
+I (C:\Keil4\ARM\RV31\INC\stdlib.h)(0x4D4BB13C)
+I (C:\Keil4\ARM\RV31\INC\string.h)(0x4D462E2E)

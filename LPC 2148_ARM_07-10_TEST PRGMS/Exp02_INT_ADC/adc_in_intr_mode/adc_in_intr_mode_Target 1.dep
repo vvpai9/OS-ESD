@@ -1,0 +1,5 @@
+Dependencies for Project 'adc_in_intr_mode', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x54B63CBC)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\INT_ADC.C)(0x5684D21F)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "int_adc.o" --omf_browse "int_adc.crf" --depend "int_adc.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x5619FB34)
+I (C:\Keil4\ARM\RV31\INC\Stdio.h)(0x4D462E2E)

@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\S!ddaramu\ARM Cortex M3\ALS-PJTBRD-ARMCTXM3-01\Softwares\Keil4\On_Board\Ext_Int\Ext_Int.uvproj
+Project File Date:  05/14/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Ext_Int.c...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=1044 RO-data=304 RW-data=8 ZI-data=512  
+FromELF: creating hex file...
+"Ext_Int.axf" - 0 Error(s), 0 Warning(s).

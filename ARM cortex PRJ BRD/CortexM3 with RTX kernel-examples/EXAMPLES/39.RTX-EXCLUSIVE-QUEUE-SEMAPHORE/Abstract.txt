@@ -1,0 +1,32 @@
+Exclusive Queue Using Semaphore:
+	Semaphores can also be used to represent a queue. In this case, the initial value
+is 0, and usually the code is written so that it is not possible to signal unless there
+is a thread waiting, so the value of the semaphore is never positive.For example,
+imagine that threads represent ballroom dancers and that two kinds of dancers leaders 
+and followers, wait in two queues before entering the dance If so, they can both proceed.
+Otherwise it waits.Similarly, when a follower arrives, it checks for a leader and either 
+proceeds or waits, accordingly.
+
+leaders and followers are counters that keep track of the number of dancers of each 
+kinds that are waiting. The mutex guarantees exclusive access to the counters.
+leaderQueue and followerQueue are the queues where dancers wait.
+
+Here is the code hint for leaders:
+When a leader arrives, it gets the mutex that protects leaders and followers. 
+If there is a follower waiting, the leader decrements followers, signals a follower
+and then invokes dance, all before releasing mutex. That guarantees that there can 
+be only one follower thread running dance concurrently. If there are no followers 
+waiting, the leader has to give up the mutex before waiting on leaderQueue.
+
+The code hint for followers is similar:
+When a follower arrives, it checks for a waiting leader. If there is one, the follower
+decrements leaders, signals a leader, and executes dance, all without releasing mutex.
+Actually, in this case the follower never releases mutex! Fortunately, the leader does.
+We don't have to keep track of which thread has the mutex because we know that one of 
+them does, and either one of them can release it.
+
+P0.16 to P0.19, LEDs L1 - L4 will turn ON when leaders are dancing.
+P0.20 to P0.23, LEDs L5 - L8 will turn ON whwn followers are dancing.
+
+
+

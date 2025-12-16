@@ -1,0 +1,9 @@
+rtx_tasks.o: RTX_tasks.c
+rtx_tasks.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx_tasks.o: C:\Keil4\ARM\INC\NXP\LPC17xx\lpc17xx.h
+rtx_tasks.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx_tasks.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx_tasks.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx_tasks.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx_tasks.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx_tasks.o: C:\Keil4\ARM\RV31\INC\stdio.h

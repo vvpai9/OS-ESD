@@ -1,0 +1,9 @@
+.\rtx-mutex.o: RTX-MUTEX.c
+.\rtx-mutex.o: C:\Keil\ARM\RV31\INC\rtl.h
+.\rtx-mutex.o: C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\rtx-mutex.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\rtx-mutex.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\rtx-mutex.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\rtx-mutex.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\rtx-mutex.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\rtx-mutex.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h

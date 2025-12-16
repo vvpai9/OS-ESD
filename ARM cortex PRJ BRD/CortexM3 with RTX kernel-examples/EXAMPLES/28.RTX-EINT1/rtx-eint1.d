@@ -1,0 +1,9 @@
+rtx-eint1.o: RTX-EINT1.c
+rtx-eint1.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-eint1.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-eint1.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-eint1.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-eint1.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-eint1.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-eint1.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-eint1.o: C:\Keil4\ARM\RV31\INC\stdio.h

@@ -1,0 +1,30 @@
+TIMER IMPLEMENTATION:
+
+TIMER : HOUR:MIN:SEC
+
+TIMER STRUCTURE:
+
+typedef struct {
+	U8 hour;
+	U8 min;
+	U8 sec;
+}TIME;
+
+init_task will create task1(2) and task2(1) delete itself from kernel.
+task1(2) : this task wake up at periodic wakeup of 1sec and update structure 
+TIME --> hour:min:sec and LED L10 will be ON when timer is updating.
+task2(1) : this task is used to reset timer to 00:00:00 if we press switch SW1 
+timer will reset 00:00:00 and L10 will toggle.
+
+Output:
+00:00:00
+00:00:01
+00:00:02
+........
+........
+........
+........
+00:00:59
+00:01:00
+00:01:01
+    

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'KEY_TEST.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"key_test.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "key_test.o" --library_type=microlib --strict --scatter "KEY_TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\KEY_TEST.map" -o "KEY_TEST.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'KEY_TEST.axf'
+### ADS-LD Command File: 'KEY_TEST.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'KEY_TEST.lnp', Handle=0x000002D0
+### Writing '.lnp' file
+### ADS-LD Command file 'KEY_TEST.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

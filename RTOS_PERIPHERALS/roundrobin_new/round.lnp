@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "rtx_config.o" "ssss.o" "startup.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "round.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\round.map" -o "round.axf"

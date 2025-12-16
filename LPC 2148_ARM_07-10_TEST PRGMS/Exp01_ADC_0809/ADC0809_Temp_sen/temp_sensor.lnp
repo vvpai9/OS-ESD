@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "lcd.o" "temp_sen.o" --library_type=microlib --strict --scatter "temp_sensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\temp_sensor.map" -o "temp_sensor.axf"

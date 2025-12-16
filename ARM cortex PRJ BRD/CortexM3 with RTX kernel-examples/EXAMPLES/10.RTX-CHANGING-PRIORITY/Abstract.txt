@@ -1,0 +1,15 @@
+This is a simple RTX Kernel based example that uses a os_tsk_prio(tsk2, 10);
+and	os_tsk_prio_self(2); function to cause task swicthing.
+
+task1(5): Initially task1 having highest priority so it will run first and changes 
+	      priority of task2(2) to task2(10) now at this point task switching takes place.
+
+task2(2): Once task1 changes priority of task2(2) to task2(10) then task2 will starts its
+		  execution then lowers its priority back to task2(2) now control is passed to task1(5).
+		  
+This process continuse forever and output can be seen on hyperterminal. 
+
+
+
+
+

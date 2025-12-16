@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "uart2_test.o" "system_lpc17xx.o" --strict --scatter "UART2_Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART2_Test.map" -o "UART2_Test.axf"

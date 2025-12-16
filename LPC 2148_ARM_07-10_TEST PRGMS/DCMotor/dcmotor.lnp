@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\dcmotor.o"
+--library_type=microlib --strict --scatter ".\dcmotor.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\dcmotor.map" -o .\dcmotor.axf

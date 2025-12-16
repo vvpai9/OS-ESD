@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "rtx_dip_switch.o" "rtx_config.o" "startup.o" "C:\Keil4\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "RTX_DIP_SWITCH.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX_DIP_SWITCH.map" -o "RTX_DIP_SWITCH.axf"

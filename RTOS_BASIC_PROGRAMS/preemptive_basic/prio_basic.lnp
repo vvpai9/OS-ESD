@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\prio_basic.o"
+".\rtx_config.o"
+C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB
+--library_type=microlib --strict --scatter ".\prio_basic.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\prio_basic.map" -o .\prio_basic.axf

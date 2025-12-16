@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "led_test.o" "system_lpc17xx.o" --library_type=microlib --strict --scatter "LED_test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_test.map" -o "LED_test.axf"

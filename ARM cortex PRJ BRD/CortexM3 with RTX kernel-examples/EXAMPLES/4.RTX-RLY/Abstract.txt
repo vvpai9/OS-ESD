@@ -1,0 +1,5 @@
+In this RTX example Relay ON/OFF controlling is done using periodic time interval function
+that wake up the tasks for every 2sec. this is done by The os_itv_wait function it waits 
+for a periodic time interval after which the RTX kernel wakes up the calling task. You must
+set the time interval using the os_itv_set function. you can use the os_itv_wait function
+to perform a job at regular intervals independent of the execution time of the task.

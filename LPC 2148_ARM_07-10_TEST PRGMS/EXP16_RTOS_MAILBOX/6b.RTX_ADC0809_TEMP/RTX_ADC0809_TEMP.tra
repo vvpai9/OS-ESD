@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'RTX_ADC0809_TEMP.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx_adc0809_temp.o"'
+### List of Objects: adding '"rtx_config.o"'
+### List of Objects: adding '"startup.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "rtx_adc0809_temp.o" "rtx_config.o" "startup.o" "C:\Keil4\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "RTX_ADC0809_TEMP.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX_ADC0809_TEMP.map" -o "RTX_ADC0809_TEMP.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX_ADC0809_TEMP.axf'
+### ADS-LD Command File: 'RTX_ADC0809_TEMP.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX_ADC0809_TEMP.lnp', Handle=0x00000610
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX_ADC0809_TEMP.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

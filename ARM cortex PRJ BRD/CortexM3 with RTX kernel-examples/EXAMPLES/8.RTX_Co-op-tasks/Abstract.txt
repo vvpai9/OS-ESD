@@ -1,0 +1,23 @@
+Cooperative Multitasking:
+
+In this RTX example init_task will create task1, task2 and delete itself from the kernel.
+If you disable Round-Robin Multitasking you must design and implement your tasks so that
+they work cooperatively. Specifically, you must call the system wait function like the 
+os_dly_wait() function or the os_tsk_pass() function somewhere in each task. These functions 
+signal the RTX kernel to switch to another task.
+
+The following example shows a simple RTX program that uses Cooperative Multitasking.The RTX 
+kernel starts executing task1. After counter1 is incremented once, the kernel switches to 
+task2 by calling os_tsk_pass(). After counter2 is incremented once, the kernel switches back
+to task1 by calling os_tsk_pass(). This process repeats indefinitely.
+
+The difference between the system wait function and os_tsk_pass is that 
+the system wait function allows your task to wait for an event, 
+while os_tsk_pass switches to another ready task immediately.
+
+Note:
+If the next ready task has a lower priority than the currently running task,
+then calling os_tsk_pass does not cause a task switch
+
+
+The o/p can be seen on a Hyperterminal

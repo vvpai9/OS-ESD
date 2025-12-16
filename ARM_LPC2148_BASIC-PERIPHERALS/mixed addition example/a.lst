@@ -1,0 +1,42 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 area             aa, code
+    3 00000000                 export           f
+    4 00000000         
+    5 00000000 E0802001 
+                       f       add              r2,r0,r1
+    6 00000004 E1A00002        mov              r0,r2
+    7 00000008 E12FFF1E        bx               lr
+    8 0000000C                 end
+Command Line: --debug --xref --apcs=interwork --depend=.\a.d -o.\a.o -IC:\Keil\
+ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --predefine=
+"__EVAL SETA 1" --list=.\a.lst a.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+aa 00000000
+
+Symbol: aa
+   Definitions
+      At line 2 in file a.s
+   Uses
+      None
+Comment: aa unused
+f 00000000
+
+Symbol: f
+   Definitions
+      At line 5 in file a.s
+   Uses
+      At line 3 in file a.s
+Comment: f used once
+2 symbols
+333 symbols in table

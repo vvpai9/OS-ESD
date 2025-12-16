@@ -1,0 +1,10 @@
+Up-Counter/Down-Counter is implemented  using pre-emptive task switching:
+ 
+Init_task will create task1(2), task2(2) and task3(1) and deletes itself from the kernel.
+
+task1(2): It will wait on an event which is set by task3(1) key pressed SW1 to increment counter.
+task2(2): It will wait on an event which is set by task3(1) key pressed SW2 to decrement counter.
+task3(1): Used to set an event for task1(2) or task2(2) depending on key SW1 or SW2.      
+
+Up-Counter: if we press and hold SW1 continuously 0000 - 9999 
+Down-Counter: if we press and hold SW2 continuously 9999 - 0000

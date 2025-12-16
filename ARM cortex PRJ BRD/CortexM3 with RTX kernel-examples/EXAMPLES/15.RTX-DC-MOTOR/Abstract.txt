@@ -1,0 +1,32 @@
+DC Motor Controlling:
+
+Pre-emptive multitasking is a task with a higher priority than the currently 
+running task becomes ready to run, RTX suspends the currently running task.
+
+In this RTX example init_task will create task1, task2, task3 delete itself
+from the kernel. This demonstrates DC motor rotation using pre-emptive multitasking,
+
+Task1 has a higher priority than task2 & task3. task1 enters the os_evt_wait_or function.
+The RTX kernel suspends task1 at this point and task2 starts executing and then enters 
+the os_evt_wait_or function. As soon as task3 sets an event flag for one of the task(task1 
+or task2)the RTX kernel suspends task3 and then resumes task1. Task1 then rotates DC motor
+in clockwise direction and calls the os_evt_wait_or function, which suspends it again. As soon
+as task3 sets an event flag for task2, the RTX kernel suspends task3 and then resumes task2.
+Task2 then rotates DC motor in anti-clockwise direction and calls the os_evt_wait_or function,
+which suspends it again. This process of task switching continues indefinitely.
+
+The output can be seen on the Hyperterminal window:
+
+ANTICLOCKWISE (4sec) 	// If DC motor runs anticlockwise (4sec)
+CLOCKWISE     (4sec)  	// If DC motor runs clockwise	  (4sec)
+
+
+
+
+
+
+
+
+
+
+

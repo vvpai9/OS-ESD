@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'INT_RTC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"int_rtc.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "int_rtc.o" --strict --scatter "INT_RTC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\INT_RTC.map" -o "INT_RTC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'INT_RTC.axf'
+### ADS-LD Command File: 'INT_RTC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'INT_RTC.lnp', Handle=0x000002EC
+### Writing '.lnp' file
+### ADS-LD Command file 'INT_RTC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

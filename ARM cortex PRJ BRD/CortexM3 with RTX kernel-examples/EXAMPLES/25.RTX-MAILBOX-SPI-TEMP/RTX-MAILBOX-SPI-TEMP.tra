@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RTX-MAILBOX-SPI-TEMP.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx-mailbox-spi-temp.o"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "rtx-mailbox-spi-temp.o" "rtx_conf_cm.o" "system_lpc17xx.o" "startup_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-MAILBOX-SPI-TEMP.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-MAILBOX-SPI-TEMP.map" -o "RTX-MAILBOX-SPI-TEMP.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX-MAILBOX-SPI-TEMP.axf'
+### ADS-LD Command File: 'RTX-MAILBOX-SPI-TEMP.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX-MAILBOX-SPI-TEMP.lnp', Handle=0x000007E4
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX-MAILBOX-SPI-TEMP.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

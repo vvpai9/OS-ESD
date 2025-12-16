@@ -1,0 +1,16 @@
+This example program shows how to use the RTX Kernel mailboxes
+for task inter-communication. 
+
+Press switch SW1 to SW8 and respective keycode correspond to SW1-SW8 are
+stored in the in Mailbox in task1 & Those stored messages are displayed 
+in task2. output can be seen on LCD. when you press SW1 to SW8 the following
+msg will be displayed on LCD. Short JP21 and observe the message send to 
+task2 when each key is pressed LED's L1 to L8 will blink.
+
+Initially following message will be displayed on LCD
+"Key Tst,Pres Key"
+"Waiting"
+
+when we press key i.e SW1 - SW8 below message will be displayed on LCD
+"Key Tst,Pres Key"
+"Key = 01" //if we press SW1

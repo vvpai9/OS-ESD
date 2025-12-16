@@ -1,0 +1,9 @@
+rtx-deadlock-sem.o: RTX-DEADLOCK-SEM.c
+rtx-deadlock-sem.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-deadlock-sem.o: C:\Keil4\ARM\RV31\INC\stdio.h

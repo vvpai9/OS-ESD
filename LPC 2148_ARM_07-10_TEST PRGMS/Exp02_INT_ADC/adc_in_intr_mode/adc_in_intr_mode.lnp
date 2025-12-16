@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "int_adc.o" --library_type=microlib --strict --scatter "adc_in_intr_mode.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\adc_in_intr_mode.map" -o "adc_in_intr_mode.axf"

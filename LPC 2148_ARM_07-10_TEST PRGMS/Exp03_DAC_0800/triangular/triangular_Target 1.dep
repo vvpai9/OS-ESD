@@ -1,0 +1,4 @@
+Dependencies for Project 'triangular', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4C80E0AC)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\triangular.c)(0x54BCF030)(--feedback "triangular.fed" -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "triangular.o" --omf_browse "triangular.crf" --depend "triangular.d")
+I (C:\Keil4\ARM\INC\Philips\LPC21xx.h)(0x4C80E12A)

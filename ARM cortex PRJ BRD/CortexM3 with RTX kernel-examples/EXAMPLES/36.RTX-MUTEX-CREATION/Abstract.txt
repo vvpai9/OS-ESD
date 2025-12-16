@@ -1,0 +1,6 @@
+A mutex is like a token that passes from one task to another, allowing one
+tast at a time to proceed. The mutex guarantees that only one task accesses
+the shared variable at a time.
+
+in order for a task to access a shared variable, it has to "get" the mutex;
+when it is done, it "releases" the mutex. Only one task can hold the mutex at a time.

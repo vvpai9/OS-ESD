@@ -1,0 +1,5 @@
+Dependencies for Project '4x4keypad', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x54A22C4C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\4x4keypad.c)(0x56B34F01)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "4x4keypad.o" --omf_browse "4x4keypad.crf" --depend "4x4keypad.d")
+I (C:\Keil4\ARM\INC\Philips\lpc21xx.h)(0x4C80E12A)
+I (C:\Keil4\ARM\RV31\INC\stdio.h)(0x4D462E2E)

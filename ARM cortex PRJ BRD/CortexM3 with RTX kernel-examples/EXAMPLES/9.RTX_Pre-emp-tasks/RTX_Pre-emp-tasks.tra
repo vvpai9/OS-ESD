@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RTX_Pre-emp-tasks.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx_pre-emp-tasks.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "rtx_pre-emp-tasks.o" "system_lpc17xx.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX_Pre-emp-tasks.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX_Pre-emp-tasks.map" -o "RTX_Pre-emp-tasks.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX_Pre-emp-tasks.axf'
+### ADS-LD Command File: 'RTX_Pre-emp-tasks.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX_Pre-emp-tasks.lnp', Handle=0x00000740
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX_Pre-emp-tasks.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

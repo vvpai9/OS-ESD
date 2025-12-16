@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\rtos-2019\worked examples\modular\modular.uvproj
+Project File Date:  08/21/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling add.c...
+add.h(5): warning:  #1-D: last line of file ends without a newline
+compiling main.c...
+add.h(5): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=588 RO-data=32 RW-data=12 ZI-data=1260  
+"modular.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling add.c...
+add.h(5): warning:  #1-D: last line of file ends without a newline
+compiling main.c...
+add.h(5): warning:  #1-D: last line of file ends without a newline
+main.c(13): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=580 RO-data=32 RW-data=12 ZI-data=1260  
+"modular.axf" - 0 Error(s), 3 Warning(s).

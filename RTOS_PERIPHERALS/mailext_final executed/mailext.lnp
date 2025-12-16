@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "mailext.o" "startup.o" "rtx_config.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "mailext.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mailext.map" -o "mailext.axf"

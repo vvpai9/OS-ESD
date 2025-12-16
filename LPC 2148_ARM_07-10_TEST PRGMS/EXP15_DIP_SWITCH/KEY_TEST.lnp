@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "key_test.o" --library_type=microlib --strict --scatter "KEY_TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\KEY_TEST.map" -o "KEY_TEST.axf"

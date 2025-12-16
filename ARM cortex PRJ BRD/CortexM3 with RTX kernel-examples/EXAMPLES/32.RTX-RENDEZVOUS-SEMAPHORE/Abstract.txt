@@ -1,0 +1,12 @@
+Rendezvous:
+A more generalized form of semaphore signaling is a rendezvous. 
+A rendezvous ensures that two tasks reach a certain point of execution. 
+Neither may continue until both have reached the rendezvous point.
+
+In the example above, the two semaphores ensure that both tasks will rendezvous
+and proceed then to execute FuncA2() and FuncB2(). 
+
+
+
+
+

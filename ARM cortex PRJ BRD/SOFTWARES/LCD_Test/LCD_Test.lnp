@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "LCD_Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LCD_Test.map" -o "LCD_Test.axf"

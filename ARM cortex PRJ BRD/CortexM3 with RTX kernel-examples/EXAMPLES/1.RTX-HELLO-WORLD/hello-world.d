@@ -1,0 +1,9 @@
+.\hello-world.o: Hello-World.c
+.\hello-world.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+.\hello-world.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\hello-world.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\hello-world.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\hello-world.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\hello-world.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\hello-world.o: C:\Keil\ARM\RV31\INC\RTL.h
+.\hello-world.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h

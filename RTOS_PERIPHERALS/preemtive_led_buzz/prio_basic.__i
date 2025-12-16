@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Philips" -o "prio_basic.o" --omf_browse "prio_basic.crf" --depend "prio_basic.d" "prio_basic.c"

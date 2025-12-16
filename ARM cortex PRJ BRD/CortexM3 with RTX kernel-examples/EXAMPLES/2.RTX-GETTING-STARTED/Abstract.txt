@@ -1,0 +1,9 @@
+In this RTX example init_task will create task1, task2 and delete itself
+from the kernel and task switching is done using os_evt_set() function.
+
+The o/p can be seen on a Hyperterminal continuosly displaying
+"Task1 Created"
+"Task2 Created"
+
+
+

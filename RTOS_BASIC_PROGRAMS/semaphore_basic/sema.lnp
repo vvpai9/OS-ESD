@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\rtx_config.o"
+".\startup.o"
+".\sema.o"
+C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB
+--library_type=microlib --strict --scatter ".\sema.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\sema.map" -o .\sema.axf

@@ -1,0 +1,16 @@
+This example program shows how to use the RTX Kernel mailboxes
+for task inter-communication. 
+
+Trun on any one pins of DIP SW20 and respective keycode correspond to pin1-pin4 are
+stored in the Mailbox, this is done in task1 & Those stored messages are displayed in task2. 
+output can be seen on LCD.
+
+Initially following message will be displayed on LCD
+
+	"DIP SWITCH TEST"
+	"DIP SW = 00    " 	// ex: if all the pins of the DIP switch SW20 are turned off
+
+when you trun on any one of DIP SW20 pins is turned on below message will be displayed on LCD
+
+	"DIP SWITCH TEST"
+	"DIP SW = 02    " 	// ex: if DIP SW20 pin2 is turned on

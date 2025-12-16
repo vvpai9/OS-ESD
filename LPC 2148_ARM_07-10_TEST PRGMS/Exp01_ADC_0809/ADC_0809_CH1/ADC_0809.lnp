@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "adc_0809.o" "lcd.o" --library_type=microlib --strict --scatter "ADC_0809.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ADC_0809.map" -o "ADC_0809.axf"

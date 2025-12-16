@@ -1,0 +1,17 @@
+This example program shows how to use the RTX Kernel mailboxes
+for task inter-communication. 
+
+Fixed message stored in the Mailbox in task1 by pressing Any KEY 
+on 4x4 Matrix and posted on the mailbox & Those stored messages are 
+displayed in task2. output can be seen on LCD.
+
+Press SW14 - SW29 Corresponding Keycode 00 - 0F will be displayed on LCD.
+
+Initially following message will be displayed on LCD
+"4x4 KEYPAD TEST"
+"WAITING"
+
+when we press key i.e SW14 - SW29 below message will be displayed on LCD
+"4x4 KEYPAD TEST"
+"KEY = 01" // Ex:if we press SW14
+

@@ -1,0 +1,14 @@
+DeadLock:
+
+Task1 which is waiting on semaphore Arrived1 arrives first, it will block at its wait.
+
+Task2 which is waiting on semaphore Arrived2 arrives, it will also block, 
+
+since task1 wasn't able to signal Arrived1. At this point, neither thread can proceed
+and never will This situation is called a deadlock and obviously, it is not a successful
+solution of the synchronization problem. In this case the error is obvious. 
+
+
+
+
+

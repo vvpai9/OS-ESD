@@ -1,0 +1,20 @@
+Pre-emptive multitasking:
+
+RTX is a pre-emptive multitasking operating system. If a task with a higher priority than
+the currently running task becomes ready to run, RTX suspends the currently running task.
+
+In this RTX example init_task will create task1, task2 and delete itself from the kernel.
+
+Task1 has a higher priority than task2. When task1 starts then enters the os_evt_wait_or 
+function. The RTX kernel suspends task1 at this point, task2 starts executing and prints cnt2 
+value and sets an event flag for task1,the RTX kernel suspends task2 and then resumes task1. 
+Task1 then increments counter cnt1 and calls the os_evt_wait_or function, which suspends it again.
+The kernel resumes task2, which increments counter cnt2 and sets an event flag for task1 This
+process of task switching continues indefinitely.
+
+The output can be seen on the Hyperterminal window
+
+
+
+
+

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'EXT_INT1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ext_int1.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ext_int1.o" --library_type=microlib --strict --scatter "EXT_INT1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\EXT_INT1.map" -o "EXT_INT1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'EXT_INT1.axf'
+### ADS-LD Command File: 'EXT_INT1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'EXT_INT1.lnp', Handle=0x00000204
+### Writing '.lnp' file
+### ADS-LD Command file 'EXT_INT1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

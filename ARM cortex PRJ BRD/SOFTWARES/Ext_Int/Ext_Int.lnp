@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "ext_int.o" "system_lpc17xx.o" --library_type=microlib --strict --scatter "Ext_Int.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Ext_Int.map" -o "Ext_Int.axf"

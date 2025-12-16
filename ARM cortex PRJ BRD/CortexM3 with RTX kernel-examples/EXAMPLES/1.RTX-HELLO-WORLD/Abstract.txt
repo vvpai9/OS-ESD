@@ -1,0 +1,15 @@
+In this RTX examples init_task will create task1, task2 and delete itself from the kernel.
+		task1 = <priority 2> 
+		task2 = <priority 1>
+
+As task1 has priority of 2 so it will run first and it will output the "Task 1: <cnt1>" 
+string on hyper terminal and enters to WAIT_DLY state for 1sec by calling os_dly_wait()
+and control is passed to task2. 
+
+Now task2 changes its state from READY to RUNNING and it will output the "Hello world!"
+string on hyper terminal and enters to WAIT_DLY state for 1sec by calling os_dly_wait()
+and again control is passed back to task1. 
+
+This Execution repeats continuously. Task switching is done using os_dly_wait() function. 
+
+

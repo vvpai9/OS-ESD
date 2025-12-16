@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "ext_int1.o" --library_type=microlib --strict --scatter "EXT_INT1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\EXT_INT1.map" -o "EXT_INT1.axf"

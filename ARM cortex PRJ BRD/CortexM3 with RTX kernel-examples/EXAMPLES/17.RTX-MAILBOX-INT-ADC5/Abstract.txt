@@ -1,0 +1,11 @@
+This example program shows how to use the RTX Kernel mailboxes
+for task inter-communication. Because the message objects in this
+example are fixed size, the RTX Thread-Safe Fixed-Block Memory
+Allocation functions are used. They are fully reentrant and can
+be used with RTX Kernel with no restrictions.
+
+Internal ADC converted values are stored in Mailbox in task1 & Those
+stored Values are displayed in task2. output can be seen on hyper 
+terminal. 
+ 
+

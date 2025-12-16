@@ -1,0 +1,10 @@
+This is a simple RTX Kernel based example that uses an event which is set in the EXT_INT1 ISR
+whenever SW12 is pressed with JP12 shorted. 
+
+This signals a task1 which is waiting on this event. The task1 toggles the LED L10 and again waits on the event.
+
+The init_task creates the task1 and deletes itself as it is no longer required. 
+
+The interrupt function is written in the same normal way.
+
+

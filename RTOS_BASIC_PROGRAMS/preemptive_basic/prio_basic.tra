@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'prio_basic.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"prio_basic.o"'
+### List of Objects: adding '"rtx_config.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "prio_basic.o" "rtx_config.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "prio_basic.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\prio_basic.map" -o "prio_basic.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'prio_basic.axf'
+### ADS-LD Command File: 'prio_basic.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'prio_basic.lnp', Handle=0x00000308
+### Writing '.lnp' file
+### ADS-LD Command file 'prio_basic.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

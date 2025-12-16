@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RTX-RENDEZVOUS-SEMAPHORE.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx-rendezvous-semaphore.o"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "rtx-rendezvous-semaphore.o" "rtx_conf_cm.o" "system_lpc17xx.o" "startup_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-RENDEZVOUS-SEMAPHORE.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-RENDEZVOUS-SEMAPHORE.map" -o "RTX-RENDEZVOUS-SEMAPHORE.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX-RENDEZVOUS-SEMAPHORE.axf'
+### ADS-LD Command File: 'RTX-RENDEZVOUS-SEMAPHORE.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX-RENDEZVOUS-SEMAPHORE.lnp', Handle=0x00000638
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX-RENDEZVOUS-SEMAPHORE.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

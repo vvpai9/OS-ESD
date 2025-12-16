@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RTX-MUTEX-CREATION.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx-mutex-creation.o"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "rtx-mutex-creation.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "system_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-MUTEX-CREATION.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-MUTEX-CREATION.map" -o "RTX-MUTEX-CREATION.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX-MUTEX-CREATION.axf'
+### ADS-LD Command File: 'RTX-MUTEX-CREATION.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX-MUTEX-CREATION.lnp', Handle=0x00000AB8
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX-MUTEX-CREATION.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

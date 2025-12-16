@@ -1,0 +1,9 @@
+demo_rtx_led.o: DEMO_RTX_LED.c
+demo_rtx_led.o: C:\Keil4\ARM\RV31\INC\RTL.h
+demo_rtx_led.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+demo_rtx_led.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+demo_rtx_led.o: C:\Keil4\ARM\RV31\INC\stdint.h
+demo_rtx_led.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+demo_rtx_led.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+demo_rtx_led.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+demo_rtx_led.o: C:\Keil4\ARM\RV31\INC\stdio.h

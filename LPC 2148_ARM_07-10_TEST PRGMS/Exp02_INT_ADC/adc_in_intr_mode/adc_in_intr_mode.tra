@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'adc_in_intr_mode.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"int_adc.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "int_adc.o" --library_type=microlib --strict --scatter "adc_in_intr_mode.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\adc_in_intr_mode.map" -o "adc_in_intr_mode.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'adc_in_intr_mode.axf'
+### ADS-LD Command File: 'adc_in_intr_mode.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'adc_in_intr_mode.lnp', Handle=0x00000528
+### Writing '.lnp' file
+### ADS-LD Command file 'adc_in_intr_mode.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

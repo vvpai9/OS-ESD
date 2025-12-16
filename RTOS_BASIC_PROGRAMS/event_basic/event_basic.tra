@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'event_basic.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"event_basic.o"'
+### List of Objects: adding '"rtx_config.o"'
+### List of Objects: adding '"startup.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "event_basic.o" "rtx_config.o" "startup.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "event_basic.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\event_basic.map" -o "event_basic.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'event_basic.axf'
+### ADS-LD Command File: 'event_basic.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'event_basic.lnp', Handle=0x000004C0
+### Writing '.lnp' file
+### ADS-LD Command file 'event_basic.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

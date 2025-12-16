@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\Obj\RTX_Swi.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\rtx_swi.o"'
+### List of Objects: adding '".\obj\rtx_config.o"'
+### List of Objects: adding '".\obj\startup.o"'
+### List of Objects: adding '".\obj\swi_table.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\obj\rtx_swi.o" ".\obj\rtx_config.o" ".\obj\startup.o" ".\obj\swi_table.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter ".\Obj\RTX_Swi.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\RTX_Swi.map" -o ".\Obj\RTX_Swi.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\RTX_Swi.axf'
+### ADS-LD Command File: '.\Obj\RTX_Swi.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\RTX_Swi.lnp', Handle=0x000002E0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\RTX_Swi.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

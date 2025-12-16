@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "rtx-mailbox-spi-adc.o" "system_lpc17xx.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-MAILBOX-SPI-ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-MAILBOX-SPI-ADC.map" -o "RTX-MAILBOX-SPI-ADC.axf"

@@ -1,0 +1,10 @@
+rtx-4x4key-matrix.o: RTX-4x4KEY-MATRIX.c
+rtx-4x4key-matrix.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\RV31\INC\stdio.h
+rtx-4x4key-matrix.o: C:\Keil4\ARM\RV31\INC\string.h

@@ -1,0 +1,9 @@
+rtx-exclusive-queue-semaphore.o: RTX-EXCLUSIVE-QUEUE-SEMAPHORE.c
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-exclusive-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\stdio.h

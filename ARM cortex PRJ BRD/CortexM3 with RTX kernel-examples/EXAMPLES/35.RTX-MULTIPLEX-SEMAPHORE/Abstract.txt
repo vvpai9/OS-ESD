@@ -1,0 +1,13 @@
+Multiplex solution:
+
+To allow multiple task to run in the critical section, just initialize the mutex
+to n, which is the maximum number of task that should be allowed.
+At any time, the value of the semaphore represents the number of additional
+task that may enter. If the value is zero, then the next task will block
+until one of the task inside exits and signals. When all task have exited
+the value of the semaphore is restored to n. 
+
+
+
+
+

@@ -1,0 +1,12 @@
+In this RTX example init_task will create task1 and delete itself from the kernel,
+Task1 creates Task2 at multiple instance with different tid(task identification) for task2
+and we can get task id with the help of os_tsk_self(); function.
+
+The os_tsk_create_ex function creates the task identified by the task
+function pointer argument and adds the task to the ready queue. 
+The function dynamically assigns a task identifier value (TID) to the new task. 
+The os_tsk_create_ex function is an extension to the os_tsk_create function that
+enables you to pass an argument to the task.
+
+
+

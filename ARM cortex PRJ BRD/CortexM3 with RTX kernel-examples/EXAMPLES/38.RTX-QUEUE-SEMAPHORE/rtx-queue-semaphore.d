@@ -1,0 +1,9 @@
+rtx-queue-semaphore.o: RTX-QUEUE-SEMAPHORE.c
+rtx-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-queue-semaphore.o: C:\Keil4\ARM\RV31\INC\stdio.h

@@ -1,0 +1,236 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;/*-----------------------------------------------------
+                       -----------------------
+    2 00000000         ; *      RL-ARM - RTX
+    3 00000000         ; *-----------------------------------------------------
+                       -----------------------
+    4 00000000         ; *      Name:    SWI_TABLE.S
+    5 00000000         ; *      Purpose: Pre-defined SWI Table
+    6 00000000         ; *      Rev.:    V4.20
+    7 00000000         ; *-----------------------------------------------------
+                       -----------------------
+    8 00000000         ; *      This code is part of the RealView Run-Time Libr
+                       ary.
+    9 00000000         ; *      Copyright (c) 2004-2011 KEIL - An ARM Company. 
+                       All rights reserved.
+   10 00000000         ; *-----------------------------------------------------
+                       ----------------------*/
+   11 00000000         
+   12 00000000         
+   13 00000000                 AREA             SWI_TABLE, CODE, READONLY
+   14 00000000         
+   15 00000000                 EXPORT           SWI_Count
+   16 00000000         
+   17 00000000 0000000A 
+                       SWI_Cnt EQU              (SWI_End-SWI_Table)/4
+   18 00000000 0000000A 
+                       SWI_Count
+                               DCD              SWI_Cnt
+   19 00000004         
+   20 00000004                 IMPORT           __SWI_0
+   21 00000004                 IMPORT           __SWI_1
+   22 00000004                 IMPORT           __SWI_2
+   23 00000004                 IMPORT           __SWI_3
+   24 00000004                 IMPORT           __SWI_4
+   25 00000004                 IMPORT           __SWI_5
+   26 00000004                 IMPORT           __SWI_6
+   27 00000004                 IMPORT           __SWI_7
+   28 00000004         
+   29 00000004         ; Import user SWI functions here.
+   30 00000004                 IMPORT           __SWI_8
+   31 00000004                 IMPORT           __SWI_9
+   32 00000004         
+   33 00000004         
+   34 00000004                 EXPORT           SWI_Table
+   35 00000004         SWI_Table
+   36 00000004 00000000        DCD              __SWI_0     ; SWI 0 used by RTX
+                                                            
+   37 00000008 00000000        DCD              __SWI_1     ; SWI 1 used by RTX
+                                                            
+   38 0000000C 00000000        DCD              __SWI_2     ; SWI 2 used by RTX
+                                                            
+   39 00000010 00000000        DCD              __SWI_3     ; SWI 3 used by RTX
+                                                            
+   40 00000014 00000000        DCD              __SWI_4     ; SWI 4 used by RTX
+                                                            
+   41 00000018 00000000        DCD              __SWI_5     ; SWI 5 used by RTX
+                                                            
+   42 0000001C 00000000        DCD              __SWI_6     ; SWI 6 used by RTX
+                                                            
+   43 00000020 00000000        DCD              __SWI_7     ; SWI 7 used by RTX
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+                                                            
+   44 00000024         
+   45 00000024         ; Insert user SWI functions here. SWI 0..7 are used by R
+                       TX Kernel.
+   46 00000024 00000000        DCD              __SWI_8     ; SWI 8  User Funct
+                                                            ion
+   47 00000028 00000000        DCD              __SWI_9     ; SWI 9  User Funct
+                                                            ion
+   48 0000002C         
+   49 0000002C         SWI_End
+   50 0000002C         
+   51 0000002C                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\obj\swi_table.d -o.\ob
+j\swi_table.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\
+Inc\Philips --predefine="__RTX SETA 1" --predefine="__EVAL SETA 1" --predefine=
+"__MICROLIB SETA 1" --list=.\lst\swi_table.lst SWI_Table.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+SWI_Count 00000000
+
+Symbol: SWI_Count
+   Definitions
+      At line 18 in file SWI_Table.s
+   Uses
+      At line 15 in file SWI_Table.s
+Comment: SWI_Count used once
+SWI_End 0000002C
+
+Symbol: SWI_End
+   Definitions
+      At line 49 in file SWI_Table.s
+   Uses
+      At line 17 in file SWI_Table.s
+Comment: SWI_End used once
+SWI_TABLE 00000000
+
+Symbol: SWI_TABLE
+   Definitions
+      At line 13 in file SWI_Table.s
+   Uses
+      None
+Comment: SWI_TABLE unused
+SWI_Table 00000004
+
+Symbol: SWI_Table
+   Definitions
+      At line 35 in file SWI_Table.s
+   Uses
+      At line 17 in file SWI_Table.s
+      At line 34 in file SWI_Table.s
+
+4 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+SWI_Cnt 0000000A
+
+Symbol: SWI_Cnt
+   Definitions
+      At line 17 in file SWI_Table.s
+   Uses
+      At line 18 in file SWI_Table.s
+Comment: SWI_Cnt used once
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+__SWI_0 00000000
+
+Symbol: __SWI_0
+   Definitions
+      At line 20 in file SWI_Table.s
+   Uses
+      At line 36 in file SWI_Table.s
+Comment: __SWI_0 used once
+__SWI_1 00000000
+
+Symbol: __SWI_1
+   Definitions
+      At line 21 in file SWI_Table.s
+   Uses
+      At line 37 in file SWI_Table.s
+Comment: __SWI_1 used once
+__SWI_2 00000000
+
+Symbol: __SWI_2
+   Definitions
+      At line 22 in file SWI_Table.s
+   Uses
+      At line 38 in file SWI_Table.s
+Comment: __SWI_2 used once
+__SWI_3 00000000
+
+Symbol: __SWI_3
+   Definitions
+      At line 23 in file SWI_Table.s
+   Uses
+      At line 39 in file SWI_Table.s
+Comment: __SWI_3 used once
+__SWI_4 00000000
+
+Symbol: __SWI_4
+   Definitions
+      At line 24 in file SWI_Table.s
+   Uses
+      At line 40 in file SWI_Table.s
+Comment: __SWI_4 used once
+__SWI_5 00000000
+
+Symbol: __SWI_5
+   Definitions
+      At line 25 in file SWI_Table.s
+   Uses
+      At line 41 in file SWI_Table.s
+Comment: __SWI_5 used once
+__SWI_6 00000000
+
+Symbol: __SWI_6
+   Definitions
+      At line 26 in file SWI_Table.s
+   Uses
+      At line 42 in file SWI_Table.s
+Comment: __SWI_6 used once
+__SWI_7 00000000
+
+Symbol: __SWI_7
+
+
+
+ARM Macro Assembler    Page 2 Alphabetic symbol ordering
+External symbols
+
+   Definitions
+      At line 27 in file SWI_Table.s
+   Uses
+      At line 43 in file SWI_Table.s
+Comment: __SWI_7 used once
+__SWI_8 00000000
+
+Symbol: __SWI_8
+   Definitions
+      At line 30 in file SWI_Table.s
+   Uses
+      At line 46 in file SWI_Table.s
+Comment: __SWI_8 used once
+__SWI_9 00000000
+
+Symbol: __SWI_9
+   Definitions
+      At line 31 in file SWI_Table.s
+   Uses
+      At line 47 in file SWI_Table.s
+Comment: __SWI_9 used once
+10 symbols
+348 symbols in table

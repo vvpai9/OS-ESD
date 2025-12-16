@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "rtx-4x4key-matrix.o" "system_lpc17xx.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-4x4KEY-MATRIX.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-4x4KEY-MATRIX.map" -o "RTX-4x4KEY-MATRIX.axf"

@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'mailext.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"mailext.o"'
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"rtx_config.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "mailext.o" "startup.o" "rtx_config.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "mailext.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mailext.map" -o "mailext.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'mailext.axf'
+### ADS-LD Command File: 'mailext.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'mailext.lnp', Handle=0x000002FC
+### Writing '.lnp' file
+### ADS-LD Command file 'mailext.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

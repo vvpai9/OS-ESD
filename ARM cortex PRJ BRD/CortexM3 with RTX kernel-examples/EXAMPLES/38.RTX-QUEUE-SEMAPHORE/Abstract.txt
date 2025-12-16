@@ -1,0 +1,40 @@
+Implementing Queue using Semaphore Concept:
+
+Semaphores can also be used to represent a queue. In this case, the initial value
+is 0, and usually the code is written so that it is not possible to signal unless
+there is a thread waiting, so the value of the semaphore is never positive.
+For example, imagine that threads represent ballroom dancers and that two kinds of
+dancers, leaders and followers, wait in two queues before entering the dance If so,
+they can both proceed. Otherwise it waits.
+
+	os_sem_init(leaderQueue, 0);
+	os_sem_init(followerQueue, 0);
+
+	leaderQueue is the queue where leaders wait and followerQueue is the
+queue where followers wait.
+
+Here is the code hint for leaders:
+
+	1 followerQueue.signal()
+	2 leaderQueue.wait()
+	3 dance()
+
+And here is the code hint for followers:
+
+	1 leaderQueue.signal()
+	2 followerQueue.wait()
+	3 dance()
+
+This solution is about as simple as it gets; it is just a Rendezvous. Each leader signals
+exactly one follower, and each follower signals one leader, so it is guaranteed that 
+leaders and followers are allowed to proceed in pairs. But whether they actually proceed
+in pairs is not clear. It is possible for any number of threads to accumulate before 
+executing dance, and so it is possible for any number of leaders to dance before any followers do.
+
+P0.16 to P0.19, LEDs L1 - L4 will turn ON when leaders are dancing.
+P0.20 to P0.23, LEDs L5 - L8 will turn ON whwn followers are dancing.
+
+
+
+
+

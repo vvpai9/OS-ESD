@@ -1,0 +1,11 @@
+In this RTX example init_task will create task1, task2, task3, task4
+and delete itself from the kernel. RTX Kernel control 4 tasks and to 
+pass signals between the tasks. The tasks in this program do nothing 
+more than increment counters and delay for a few clock ticks, task3 
+sets an event for task4 which is waiting for it when counter3 reaches
+255 and back to 0 then counter4 will increment by one. While task1 and
+task2 are continuously updating counter1 and counter2 values for every
+5-ticks and 10-ticks..
+ 
+The outputs can be seen on hyperterminal window
+

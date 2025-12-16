@@ -1,0 +1,19 @@
+This is a simple RTX Kernel based example that uses a semaphore barrier:
+
+in this example initialize two semaphore:
+	1) Mutex : with initial value 1 
+	2) Barrier: with initial value 0
+
+4 tasks are created along with semaphore initialization in init_task, all
+task have created with prioity 1.
+
+Mutex semaphore is used to update the count value which is global variable
+Barrier semaphore is used create turnstile.
+
+when count = n in task4 then Barrier semaphore is released and all blocked 
+tasks will resumes their execution.
+
+
+
+
+

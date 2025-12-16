@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RTX-EINT3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rtx-eint3.o"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "rtx-eint3.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "system_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-EINT3.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-EINT3.map" -o "RTX-EINT3.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTX-EINT3.axf'
+### ADS-LD Command File: 'RTX-EINT3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTX-EINT3.lnp', Handle=0x000009CC
+### Writing '.lnp' file
+### ADS-LD Command file 'RTX-EINT3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

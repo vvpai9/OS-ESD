@@ -1,0 +1,9 @@
+rtx-mutex-creation.o: RTX-MUTEX-CREATION.c
+rtx-mutex-creation.o: C:\Keil\ARM\RV31\INC\rtl.h
+rtx-mutex-creation.o: C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h
+rtx-mutex-creation.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+rtx-mutex-creation.o: C:\Keil\ARM\RV31\INC\stdint.h
+rtx-mutex-creation.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+rtx-mutex-creation.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+rtx-mutex-creation.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-mutex-creation.o: C:\Keil\ARM\RV31\INC\stdio.h

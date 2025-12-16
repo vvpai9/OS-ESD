@@ -1,0 +1,9 @@
+rtx_co-op-task.o: RTX_Co-op-task.c
+rtx_co-op-task.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx_co-op-task.o: C:\Keil4\ARM\INC\NXP\LPC17xx\lpc17xx.h
+rtx_co-op-task.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx_co-op-task.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx_co-op-task.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx_co-op-task.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx_co-op-task.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx_co-op-task.o: C:\Keil4\ARM\RV31\INC\stdio.h

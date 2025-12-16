@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "lcd.o" "main.o" "rtx_config.o" "startup.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --library_type=microlib --strict --scatter "modular.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\modular.map" -o "modular.axf"

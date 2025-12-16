@@ -1,0 +1,9 @@
+rtx-changing-priority.o: RTX-CHANGING-PRIORITY.c
+rtx-changing-priority.o: C:\Keil4\ARM\RV31\INC\RTL.h
+rtx-changing-priority.o: C:\Keil4\ARM\INC\NXP\LPC17xx\LPC17xx.h
+rtx-changing-priority.o: C:\Keil4\ARM\CMSIS\Include\core_cm3.h
+rtx-changing-priority.o: C:\Keil4\ARM\RV31\INC\stdint.h
+rtx-changing-priority.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+rtx-changing-priority.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+rtx-changing-priority.o: C:\Keil4\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+rtx-changing-priority.o: C:\Keil4\ARM\RV31\INC\stdio.h

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "rtx-seven-segment-counter.o" "rtx_conf_cm.o" "startup_lpc17xx.o" "system_lpc17xx.o" "C:\Keil4\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --strict --scatter "RTX-SEVEN-SEGMENT-COUNTER.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTX-SEVEN-SEGMENT-COUNTER.map" -o "RTX-SEVEN-SEGMENT-COUNTER.axf"

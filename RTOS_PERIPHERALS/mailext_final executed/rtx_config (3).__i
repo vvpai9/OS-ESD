@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Philips" -o "rtx_config (3).o" --omf_browse "rtx_config (3).crf" --depend "rtx_config (3).d" "C:\Documents and Settings\Admin\Desktop\payal\RTX_Config (3).c"
